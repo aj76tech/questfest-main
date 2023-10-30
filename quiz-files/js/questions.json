@@ -1,0 +1,352 @@
+{
+  "novice": [
+    {
+      "isImageQuestion": true,
+      "image": "../quiz-files/Pictionary/Cheranmanagar.png",
+      "options": ["Annanagar", "Cheranmanagar", "Ram Nagar", "Gandhinagar"],
+      "correct": 1,
+      "hint": "His name is Cheran..😉"
+    },
+    {
+      "isImageQuestion": true,
+      "image": "../quiz-files/Pictionary/Ganapathy.png",
+      "options": ["BigBazaar Street", "Goundampalayam", "Ganapathy", "NavaIndia"],
+      "correct": 2,
+      "hint": "Third image means half..🤭."
+    },
+    {
+      "isImageQuestion": true,
+      "image": "../quiz-files/Pictionary/Kalapatti.png",
+      "options": ["Kalapatti", "Saravampatti", "Vedapatti", "Kovilpatti"],
+      "correct": 0,
+      "hint": "It starts with K.."
+    },
+    {
+      "isImageQuestion": true,
+      "image": "../quiz-files/Pictionary/Kovilpalayam.png",
+      "options": ["Sowripalayam", "Kovilpalayam", "Koundampalayam", "Goundampalayam"],
+      "correct": 1,
+      "hint": "What is Temple in tamil?"
+    },
+    {
+      "isImageQuestion": true,
+      "image": "../quiz-files/Pictionary/Marudhamalai.png",
+      "options": ["Marudhamalai", "Thiruvannamalai", "Sabarimalai", "Anamalai"],
+      "correct": 0,
+      "hint": "It Starts with M..."
+    },
+    {
+      "isImageQuestion": true,
+      "image": "../quiz-files/Pictionary/Peelamedu.png",
+      "options": ["Peelamedu", "Perur", "mettur", "Puliakulam"],
+      "correct": 0,
+      "hint": "You 'Peel' the onion..🤭"
+    },
+    {
+      "isImageQuestion": true,
+      "image": "../quiz-files/Pictionary/Sidhapudhur.png",
+      "options": ["Singanallur", "Selvapuram", "Sundarapuram", "Sidhapudhur"],
+      "correct": 3,
+      "hint": "Starts with Sidha?🤭"
+    },
+    {
+      "isImageQuestion": true,
+      "image": "../quiz-files/Pictionary/Singanallur.png",
+      "options": ["Peelamedu", "Saravampatti", "Padanallur", "Singanallur"],
+      "correct": 3,
+      "hint": "Think of singham...😙"
+    },
+    {
+      "isImageQuestion": true,
+      "image": "../quiz-files/Pictionary/Vadavalli.png",
+      "options": ["Vadacovai", "Vadavalli", "Vadanallur", "Vandalur"],
+      "correct": 1,
+      "hint": "That's BruceLee 👀"
+    }
+
+  ],
+
+    "easy": [
+      {
+        "text": "What is Coimbatore's popular nickname?",
+        "options": ["a) Steel city", "b) Silicon city", "c) Manchester of South India", "d) Queen of the Mountains"],
+        "correct": 2,
+        "hint": "Think of English football."
+      },
+      {
+        "text": "Who is Coimbatore's native that became India's first Formula One driver?",
+        "options": ["a) J. Anand", "b) V.R.Naren", "c) S.Karivardhan", "d) Narain Karthikeyan"],
+        "correct": 3,
+        "hint": "There are two words in the name"
+      },
+      {
+        "text": "After which goddess was Coimbatore believed to be named?",
+        "options": ["a) Kovan", "b) Mangamma", "c) Palayamman", "d) Koniamman"],
+        "correct": 3,
+        "hint": "Its one of the Ammans"
+      },
+      {
+        "text": "After which 9th century ruler was Coimbatore named after?",
+        "options": ["a) Kovan", "b) Kalayappan", "c) Komban", "d) Kuberan"],
+        "correct": 0,
+        "hint": "The answer is in coimbatore’s other name"
+      },
+      {
+        "text": "Largest lake in Coimbatore?",
+        "options": ["a) Periyakulam Lake", "b) Valankulam Lake", "c) Singanallur Lake", "d) Perur Lake"],
+        "correct": 0,
+        "hint": "its in the name"
+      },
+      {
+        "text": "Largest restaurant chain in Coimbatore?",
+        "options": ["a) Annapoorna", "b) aanandhas", "c) Ramesh mess", "d) Aaryas"],
+        "correct": 0,
+        "hint": "The oldest of them all"
+      },
+      {
+        "text": "Closest town in Kerala to Coimbatore?",
+        "options": ["a) Palakkad", "b) Walayar", "c) Anaikatti", "d) Sholayur"],
+        "correct": 1,
+        "hint": "There is a Dam here"
+      },
+      {
+        "text": "When does Coimbatore receive the most rainfall?",
+        "options": ["a) May-June", "b) June-July", "c) October-November", "d) January-February"],
+        "correct": 2,
+        "hint": "The Months with the most number of Public Holidays"
+      },
+      {
+        "text": "What decline in which city fueled an economic boom in Coimbatore in the 1920s and 1930s?",
+        "options": ["a) Shipping industry in Vijayawada", "b) Cotton industry in Mumbai", "c) Steel industry in Kolkata", "d) Jute industry in Chennai"],
+        "correct": 1,
+        "hint": "Did you know that there are more spinning mills in Coimbatore than stars in the sky?"
+      },
+      {
+        "text": "What is the highest point in the Nilgiris?",
+        "options": ["a) Vattakanal", "b) Anamudi", "c) Poomparai", "d) Doddabetta"],
+        "correct": 3,
+        "hint": "How do you say 'child' in Hindi?"
+      },
+      {
+        "text": "Which river is associated with Coimbatore's location?",
+        "options": ["a) Kaveri", "b) Godavari", "c) Noyyal", "d) Vaigai"],
+        "correct": 2,
+        "hint": "It's a 6 letter word."
+      }
+    ],
+  
+    "medium": [
+      {
+        "text": "Which famous actor from Baahubali was born in Coimbatore?",
+        "options": ["a) Sasikumar", "b) Nasser", "c) Sathyaraj", "d) Prabhas"],
+        "correct": 2,
+        "hint": "He is Bald"
+      },
+      {
+        "text": "Which is the oldest restaurant in Coimbatore?",
+        "options": ["a) RHR", "b) Aanandhas", "c) Annapoorna", "d) Rayappas"],
+        "correct": 0,
+        "hint": "Its not Annapoorna"
+      },
+      {
+        "text": "This music director, known for his soulful compositions in Tamil cinema, was born in Coimbatore. Who is he?",
+        "options": ["a) Ghibran", "b) Anirudh", "c) Devi Sri Prasad", "d) Armaan Malik"],
+        "correct": 0
+      },
+      {
+        "text": "Who was the first Indian woman from Coimbatore to win a round at the 1998 Australian tennis tournament?",
+        "options": ["a) Sania Mirza", "b) Saina Nehwal", "c) Nirupama Vaidyanathan", "d) Ankita Raina"],
+        "correct": 2,
+        "hint": "Its a south Indian name"
+      },
+      {
+        "text": "For which sport was Nehru Stadium originally built?",
+        "options": ["a) Cricket", "b) Tennis", "c) Football", "d) Badminton"],
+        "correct": 2,
+        "hint": "No bat is required"
+      },
+      {
+        "text": "Who established Coimbatore's first textile mills?",
+        "options": ["a) Mahatma Gandhi", "b) alagappa chettiar", "c) Robert Stanes", "d) Lala Lajpat Rai"],
+        "correct": 2,
+        "hint": "he is christian"
+      },
+      {
+        "text": "What is the full form of RS Puram?",
+        "options": ["a) Rathina Sabapathi Puram", "b) Rashtrapathy Puram", "c) Raja Shesha Puram", "d) Rama Sita Puram"],
+        "correct": 0,
+        "hint": "There is a gem in the name"
+      },
+      {
+        "text": "What is the second most spoken language in Coimbatore?",
+        "options": ["a) Telugu", "b) Malayalam", "c) Hindi", "d) Kannada"],
+        "correct": 0,
+        "hint": "Allu Arjun speaks this language"
+      },
+      {
+        "text": "How many lakes were revived under the smart city project in Coimbatore city?",
+        "options": ["a) 2", "b) 7", "c) 12", "d) 14"],
+        "correct": 1,
+        "hint": "It's an odd number."
+      },
+      {
+        "text": "Which among the following is recognized as a Geographical Indication associated with Coimbatore?",
+        "options": ["a) Cora Cotton", "b) Koyam Silk", "c) Wet grinder", "d) Rajakesari Rice"],
+        "correct": [1, 2],
+        "hint": "2 of the options are correct."
+      },
+      {
+        "text": "Which of these popular dishes originated from Coimbatore?",
+        "options": ["a) Arisiparuppu Satham", "b) Idly", "c) Pongal", "d) Kothu Parotta"],
+        "correct": 0,
+        "hint": "What is 'rice' in Tamil?"
+      },
+      {
+        "text": "In the 2019 General election, who defeated C.P.Radhakrishnan in the Lok Sabha constituency?",
+        "options": ["a) P.R. Natarajan", "b) K.R. Ramasamy", "c) M.K. Stalin", "d) A.R. Rahman"],
+        "correct": 0,
+        "hint": "The famous stationary brand."
+      },
+      {
+        "text": "Among non-metro cities in South India, what rank does Coimbatore hold in terms of e-commerce?",
+        "options": ["a) First", "b) Second", "c) Third", "d) Fourth"],
+        "correct": 0,
+        "hint": "It is the Largest in terms of ecommerce."
+      }
+    ],
+    "hard": [
+      {
+        "text": "Who ruled the region around Coimbatore during the Sangam period?",
+        "options": ["a) Cholas", "b) Vijayanagara Empire", "c) Cheras", "d) Madurai Nayaks"],
+        "correct": 2,
+        "hint": "Which dynasty did the movie 'Ponniyan Selvan' talk about?"
+      },
+      {
+        "text": "Which radical group bombed 11 places across Coimbatore in 1998?",
+        "options": ["a) Al Qaeda", "b) Lashkar-e-Taiba", "c) Al Ummah", "d) Hizbul Mujahideen"],
+        "correct": 2,
+        "hint": "What is 'Kiss' in Tamil?"
+      },
+      {
+        "text": "Which day used to be celebrated as 'Coimbatore Day'?",
+        "options": ["a) 14th November", "b) 24th November", "c) 1st January", "d) 15th August"],
+        "correct": 1,
+        "hint": "All the others are national holidays."
+      },
+      {
+        "text": "Coimbatore is divided into how many administrative zones?",
+        "options": ["a) Three", "b) Four", "c) Five", "d) Six"],
+        "correct": 3,
+        "hint": "one more than the number of fingers on your friend’s hand."
+      },
+      {
+        "text": "How many members does Coimbatore elect to the Tamil Nadu Legislative Assembly?",
+        "options": ["a) Five", "b) Six", "c) Eight", "d) Ten"],
+        "correct": 3,
+        "hint": "It's a two-digit number."
+      },
+      {
+        "text": "Approximately what percentage of India's motors and pumps is supplied by Coimbatore?",
+        "options": ["a) 20%", "b) 30%", "c) 40%", "d) 75%"],
+        "correct": 2,
+        "hint": "What is 2/5?"
+      },
+      {
+        "text": "Which national highway that passes through Coimbatore and connects it to Kerala?",
+        "options": ["a) NH47", "b) NH544", "c) SH1", "d) NH4"],
+        "correct": 0,
+        "hint": "Avinashi Road"
+      },
+      {
+        "text": "Which is the oldest temple in Coimbatore?",
+        "options": ["a) Pateeswarar Temple", "b) Marudhamalai Temple", "c) Koniamman Temple", "d) Thandumariamman Temple"],
+        "correct": 0,
+        "hint": "Its in Perur"
+      },
+      {
+        "text": "How many MP constituencies are there in Coimbatore?",
+        "options": ["a) 10", "b) 20", "c) 6", "d) 4"],
+        "correct": 2,
+        "hint": "Its Less than 10"
+      },
+      {
+        "text": "Where is Formula 3 held in Coimbatore?",
+        "options": ["a) Nehru stadium", "b) Kari Motor Speedway", "c) L&T Bypass", "d) Coimbatore Motorsport Circuit"],
+        "correct": 1,
+        "hint": "Named after the famous Indian racing Driver"
+      }
+    ],
+    "very hard": [
+      {
+        "text": "In which year did the British East India Company annex Coimbatore to the Madras Presidency?",
+        "options": ["a) 1755", "b) 1799", "c) 1822", "d) 1857"],
+        "correct": 1,
+        "hint": "closer to 1800."
+      },
+      {
+        "text": "How many times did Mahatma Gandhi visit Coimbatore during the Indian Independence movement?",
+        "options": ["a) Once", "b) Twice", "c) Three times", "d) Four times"],
+        "correct": 2,
+        "hint": "Think of a trio."
+      },
+      {
+        "text": "In which year was Coimbatore constituted as a municipal corporation after Independence?",
+        "options": ["a) 1947", "b) 1960", "c) 1975", "d) 1981"],
+        "correct": 2,
+        "hint": "the same year as the Vietnam War."
+      },
+      {
+        "text": "Coimbatore District Chess Association is famously considered as?",
+        "options": [
+          "a) The association with the most Grandmasters",
+          "b) The oldest chess association",
+          "c) The association hosting the most international tournaments",
+          "d) The association with the most national champions"
+        ],
+        "correct": 1,
+        "hint": "definitely not the youngest"
+      },
+      {
+        "text": "Which is the tallest building in Coimbatore?",
+        "options": [
+          "a) Globus Nakshatra",
+          "b) TVH Vista Heights",
+          "c) Shoba Elan",
+          "d) Brookfields Mall"
+        ],
+        "correct": 0,
+        "hint": "The Stars"
+      },
+      {
+        "text": "Oldest theatre in Coimbatore?",
+        "options": [
+          "a) Delight Theatre",
+          "b) Central Theatre",
+          "c) Kanakathara Theatre",
+          "d) Touring Talkies"
+        ],
+        "correct": 0,
+        "hint": "You get this feeling after watching a movie"
+      },
+      {
+        "text": "Oldest school in Coimbatore?",
+        "options": [
+          "a) CSI Boys Highschool",
+          "b) Stanes higher Secondary",
+          "c) Mani Higher Secondary school",
+          "d) YMCA"
+        ],
+        "correct": 0,
+        "hint": "Christian Institution - not Stanes"
+      },
+      {
+        "text": "What is the largest company in Coimbatore?",
+        "options": ["a) KPR Mills", "b) LMW", "c) Suguna", "d) Elgi"],
+        "correct": 2,
+        "hint": "Its a Food Related Company"
+      }
+    ]
+  }
+  
+  
+  

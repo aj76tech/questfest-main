@@ -1,0 +1,233 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252A30;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;  /* Medium font weight should be 400 */
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;  /* Base font size for mobile-first */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 5%;
+    background-color: #252A30;
+}
+
+#logo {
+    width: 200px;  /* Adjusted size for mobile */
+    margin-left: 75px;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;  /* Vertical menu for mobile */
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #252A30;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #dddddd;
+}
+
+main {
+    padding: 10% 5%;  /* Adjusted padding for mobile */
+    text-align: center;
+}
+
+.centered {
+    font-family: 'Kanit',sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.box {
+    background-color: #49493E;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(255, 250, 221, 0.1);
+    margin-bottom: 10px;
+    text-align: left;
+}
+.promo-image {
+    align-self: center;
+    width: 102%;
+    margin-bottom: -60px;
+    margin-top: -40px;
+}
+.rules, .phone-input {
+    padding: 3% 5%;  /* Adjusted padding for mobile */
+    text-align: center;
+}
+
+.rules h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #FFCE22;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.rules ol {
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.phone-input input[type="tel"] {
+    padding: 10px;
+    width: 100%;  /* Full width on mobile */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 8px 16px;  /* Smaller for mobile */
+    color: #ffffff;
+    background-color: #5346F5;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-color: #5346F5;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #4033C4;
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    color: #ffffff;
+    background-color: #252A30;
+}
+
+/* Media queries for larger screens (if needed in future) */
+@media screen and (min-width: 768px) {
+    nav ul {
+        flex-direction: row;  /* Horizontal menu for tablets */
+        gap: 20px;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    main {
+        padding: 5% 10%;
+    }
+
+    .phone-input input[type="tel"] {
+        width: 80%;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+    }
+}
+@keyframes fadeInBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    70% {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#confirmationPopup {
+    animation: fadeInBounce 1s forwards;
+    display: none;
+    position: absolute;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 90%;
+    height: auto;
+    z-index: 1000;
+    text-align: center;
+    box-shadow: 0 0 60px #787878;
+}
+.popup p {
+    font-family: 'Inter', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    margin: 20px;
+    margin-bottom:30px;
+}
+.popup h2 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom:20px;
+}
+#edit {
+
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    background-color: #fff;
+    width: 130px;
+    height: 50px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -10px;
+}
+#confirmStart {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    background-color:#fcc001;
+    width: 130px;
+    height: 50px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: 5px;
+}

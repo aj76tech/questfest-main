@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Kanit:wght@400;700;800&display=swap">
+    <link rel="stylesheet" href="../quiz-files/css/quiz.css">
+    <script src="../quiz-files/js/quiz.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="../quiz-files/images/logo.png" alt="Your Brand Logo" id="logo"> 
+    </header>
+
+    <main class="quiz-section">
+        <div class="confetti-container"></div>
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
+        <div id="question" class="typing"></div>
+        <h2 id="questionText"></h2>
+
+        <div id="options">
+            <button class="optionBtn">Option 1</button>
+            <button class="optionBtn">Option 2</button>
+            <button class="optionBtn">Option 3</button>
+            <button class="optionBtn">Option 4</button>
+        </div>
+
+        <div class="hint-section">
+            <button class="hint-button">Show Hint (Lose 50% reward)</button>
+            <div class="hint-content" style="display: none;">
+                <div id="hinttext">
+                    Your hint text goes here.
+                </div>
+            </div>
+        </div>
+        <div id="couponCounter">Coupons Earned: 0</div>
+        <button id="quitClaimButton">Quit and Claim Coupons</button>
+
+
+        <!-- HURRAY popup -->
+        <div class="popup" id="hurrayPopup">
+            <h1 class="popup-title hurray-color">Hurray!</h1>
+            <p>You have won a coupon!<br>Keep playing to win more!</p>
+            <p id="hurrayCorrectAnswer"></p>
+            <img src="../quiz-files/images/Coupon1.png" alt="Your Brand Logo" id="couponimg">
+            <button class="popup-btn hurray-color" onclick="closePopup('hurrayPopup')">Continue</button>
+        </div>
+
+        <!-- SORRY popup -->
+        <div class="popup" id="sorryPopup">
+            <h1 class="popup-title sorry-color">Sorry!</h1>
+            <p>You have won no coupons<br>As you answered wrong twice, Keep playing to win!</p>
+            <p id="sorryCorrectAnswer"></p>
+            <button class="popup-btn sorry-color" onclick="closePopup('sorryPopup')">Continue</button>
+        </div>
+        
+        <!-- ARE YOU SURE popup -->
+        <div class="popup" id="areYouSurePopup">
+            <h1 class="popup-title areYouSure-color">Are you sure?</h1>
+            <p>Quit and Claim the earned coupons?</p>
+            <button id="noQuitButton" class="popup-btn">No</button>
+            <button id="yesQuitButton" class="popup-btn outline-btn" onclick="completionPageAction()">Yes</button>
+        </div>
+        
+
+    </main>
+    <footer>
+        <p>© 2023 All rights reserved by Soulocal.</p>
+    </footer>
+    
+</body>
+
+</html>

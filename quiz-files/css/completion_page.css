@@ -1,0 +1,107 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 5%;
+    background-color: #252A30;
+    color: #212020;
+}
+
+#logo {
+    width: 250px;  /* Adjusted size for mobile */
+    margin-bottom: -20px;
+}
+#discount {
+    width:80%;
+    margin-left: 10px;
+}
+body {
+    font-family: inter;
+    background-position: center;
+    background-size: cover;
+    background-color: #252A30;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coupon-box {
+    font-size: 20px;
+    height: auto;
+    overflow: hidden;
+    margin: 0,20;
+    background-color: #49493E;
+    color: #ffffff;
+    border: 3px solid #FFCE22;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.about-section p {
+    width: 100%;
+    justify-content:baseline;
+}
+
+.about-box {
+    font-size: 20px;
+    height: auto;
+    overflow: hidden;
+    background-color: #49493E;
+    color: #ffffff;
+    border: 3px solid #FFCE22;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.completion-container {
+    width: 80%; /* Or any desired width */
+    max-width: 600px; /* Adjust based on your needs */
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #EDEDED;
+    margin-top: -20px;
+}
+h2 {
+    font-family: 'inter', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    color: #FFCE22;
+    margin-top: -40px;
+    margin-bottom: -10px;
+}
+
+.image-container {
+    width: 250px;
+    height: 140px;
+    margin: 20px auto;
+    background-color: #ddd; /* Placeholder color, you can replace this with a background-image */
+    border-radius: 10px;
+}
+
+.coupon-info {
+    margin-top: 20px;
+}
+
+#couponCount {
+    font-family: 'Inter',sans-serif;
+    color:#FFCE22;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.about-section {
+    margin-top: 40px;
+    font-family: inter;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #252A30;
+    color: #EDEDED;
+}

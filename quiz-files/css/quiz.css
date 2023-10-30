@@ -1,0 +1,387 @@
+/* ------------------- 1. General Resets & Settings ------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2D343A;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* ------------------- 2. General Components ------------------- */
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#couponCounter {
+    font-family: 'Inter', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* ------------------- 3. Header ------------------- */
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 0.5rem 5%;
+    background-color: #252A30;
+    color: #212020;
+    margin-bottom: -10px;
+}
+
+#logo {
+    width: 130px;
+}
+
+#hamburger {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* ------------------- 4. Quiz Section ------------------- */
+.quiz-section {
+    padding: 2% 5%;
+    text-align: center;
+}
+
+.optionBtn {
+    background-color: #454545;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 18px;
+    font-weight: 300;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    margin: 10px 0;
+    opacity: 0;
+    animation: fadeInDown 1s forwards;
+}
+
+
+/* For button click effects */
+.optionBtn:active {
+    filter: brightness(90%);
+}
+
+.optionBtn.correct {
+    background-color: #6AD637;
+    pointer-events: none;
+    box-shadow: 0 0 40px #82ff58;
+}
+
+.optionBtn.wrong {
+    background-color: #FF3030;
+    pointer-events: none;
+    box-shadow: 0 0 40px #ff5858;
+}
+
+/* ... [The rest of your existing CSS] ... */
+
+
+.optionBtn:nth-child(1) { animation-delay: 0.2s; }
+.optionBtn:nth-child(2) { animation-delay: 0.3s; }
+.optionBtn:nth-child(3) { animation-delay: 0.4s; }
+.optionBtn:nth-child(4) { animation-delay: 0.5s; }
+
+.hint-box {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#quitClaimButton {
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#quitClaimButton:hover {
+    background-color: rgba(255,255,255,0.8);
+}
+
+#questionText {
+    font-size: 20px;
+    height: auto;
+    overflow: hidden;
+    margin: 0,20;
+    background-color: #49493E;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hint-section {
+    background-color: #49493E; 
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    position: relative;
+    height: 110px;
+}
+
+.hint-button {
+    background-color: #F1CD6D;
+    color: #000000;
+    border: none;
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, opacity 0.5s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hint-button:hover {
+    background-color: #f4b600;
+}
+
+.hint-content {
+    margin-top: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 80px;
+    overflow: hidden;
+    color:#FFCE22;
+    font-weight: 500;
+}
+
+
+
+.progress-container {
+    width: 100%;
+    height: 15px;
+    background-color: #65d7007e;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.progress-bar {
+    margin-top: 10px;
+    height: 100%;
+    width: 0%;
+    background-color: #6AD637;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #82ff58;
+    transition: width 0.5s ease-in-out;
+}
+.pictionary-container {
+    display: flex;
+    flex-direction: column;  /* This ensures children are stacked vertically */
+    align-items: center; 
+    justify-content: center; 
+    margin-top: -5px;
+    max-width: 101%; 
+}
+
+.pictionary-container img.question-image {
+    max-width: 100%; /* Image doesn't exceed container width */
+    height: auto;    /* Maintain aspect ratio */
+}
+
+
+.question-number {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+/* ------------------- 5. Animations ------------------- */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideOutToLeft {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    70% {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ------------------- 6. Popups ------------------- */
+.popup {
+    animation: fadeInBounce 1s forwards;
+    display: none;
+    position: absolute;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    background-color: #252A30;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid #ffcf22;
+    width: 90%;
+    height: auto;
+    z-index: 1000;
+    text-align: center;
+    box-shadow: 0 0 60px #787878;
+}
+
+.popup-title {
+    font-family: 'Kanit', sans-serif;
+    color: #f4b600;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: -20px;
+}
+
+.popup p {
+    font-family: 'Inter', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+    margin-bottom:30px;
+}
+
+#couponimg {
+    width: 260px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.popup-btn.hurray-color {
+    background-color: rgb(1, 161, 1);
+    color: white;
+}
+
+.popup-btn.sorry-color {
+    background-color: #fcc216;
+    color: white;
+}
+
+.popup-btn.areYouSure-color {
+    background-color: #FF3030;
+    color: white;
+}
+
+.popup-btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    background-color:#FF3030;
+    width: 130px;
+    height: 50px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -10px;
+    
+}
+.popup-active {
+    pointer-events: none;
+}
+.popup,
+.overlay {
+    pointer-events: all;
+}
+
+.outline-btn {
+    border: 2px solid #ffffff;
+    width: 130px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    margin-left: 10px;
+
+}
+.outline-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* slight white shade on hover */
+}
+
+/* ------------------- 7. Media Queries ------------------- */
+@media screen and (min-width: 768px) {
+    .quiz-section {
+        padding: 5% 10%;
+    }
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #252A30;
+    color: whitesmoke;
+}
+

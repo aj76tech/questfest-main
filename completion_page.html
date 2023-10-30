@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Completion</title>
+    <link rel="stylesheet" href="../quiz-files/css/completion_page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&family=Inter:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <img src="../quiz-files/images/logo.png" alt="Your Brand Logo" id="logo">
+</header>
+
+<body>
+    <div class="completion-container">
+        <h1>Congratulations!</h1>
+        <img src="../quiz-files/images/coupicon.png" alt="couponpreview" id="discount">
+        <div class="coupon-info">
+            <div class="coupon-box">
+                <span id="couponCount">X Coupons</span>
+                <p>Instructions on how to redeem the coupons will be sent to your WhatsApp!</p>
+            </div>
+        </div>
+        <div class="about-box">
+            <div class="about-section">
+                <h2>About Us</h2>
+                <p>For generations, offline stores have serviced their Customers with their heart and soul. But in recent times, it has been extremely challenging for them to provide the same kind of experience online. At SOULOCAL, we have made it our mission to bridge this gap by seamlessly transitioning your favourite local stores online.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const coupons = urlParams.get('coupons');
+            if(coupons) {
+                document.getElementById("couponCount").innerText = "You have won " + coupons + " Coupons!";
+            }
+        }
+    </script>
+    <footer>
+        <p>© 2023 All rights reserved by Soulocal.</p>
+    </footer>
+</body>
+
+</html>

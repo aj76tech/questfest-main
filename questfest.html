@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Kanit:wght@400;700;800&display=swap">
+    <link rel="stylesheet" href="quiz-files/css/main.css">
+    <script src="quiz-files/js/main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="quiz-files/images/logo.png" alt="Your Brand Logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <!-- You can add more navigation items if needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <img src="quiz-files/images/a1.png" alt="Star" class="promo-image">
+        <div id="confirmationPopup" class="popup">
+                <h2>Are you sure?</h2>
+                <p>We will be sending your coupons to this number in WhatsApp</p>
+                <button id="edit">Edit</button>
+                <button id="confirmStart">Continue</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Phone Number Input Section -->
+    <section class="phone-input">
+        <div class="box">
+            <div class="centered">
+                <form action="/storePhoneNumber" method="POST" id="phoneForm">
+                    <input type="tel" name="number" id="phoneInput" placeholder="Enter your Phone Number" required>
+                    <button type="submit" id="startQuizButton" class="cta-button">Let's Play!</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Ground Rules Section -->
+    <section class="rules">
+        <div class="box">
+            <h2 class="centered">Ground Rules</h2>
+            <ol>
+                <li>You will answer 5 multiple-choice questions about Coimbatore.</li>
+                <li>The difficulty level will increase after each question.</li>
+                <li>You will receive a discount coupon, from your favorite local stores, for each question you answer correctly.</li>
+                <li>If you don't know the answer, you can use a hint, but it will reduce the value of the coupon by 50% (Alternatively, you can ask a friend for help.)</li>
+                <li>After completing the quiz, we will send your earned coupons and instructions on how to redeem to your WhatsApp.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 All rights reserved by Soulocal.</p>
+    </footer>
+
+</body>
+
+</html>
